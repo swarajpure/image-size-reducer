@@ -8,15 +8,21 @@
   <meta content="utf-8" http-equiv="encoding">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tiny Image</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-  <h1>Upload your image below</h1>
+  <div class="container">
+    <h1>Upload your image below</h1>
+  
     <input type="file" name="image" id="uploadedFile" accept="image/*" required />
     <button type="submit" id="submit-btn">Upload</button>
-
+  
     <p id="message"></p>
     <a id="download-btn" download rel="noreferrer noopener"></a>
+  </div>
 
   <script src="./index.js"></script>
 </body>
